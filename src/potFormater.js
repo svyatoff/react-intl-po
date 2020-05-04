@@ -78,7 +78,9 @@ const potFormater = messageObject =>
               messageObject[id][context],
             )}${potContextsFormater(context)}msgid ${JSON.stringify(
               id,
-            )}\nmsgstr ""\n`,
+            )}\nmsgstr ${JSON.stringify(
+              messageObject[id][context][0].defaultMessage,
+            )}\n`,
         )
         .join('\n'),
     )
