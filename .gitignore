@@ -16,3 +16,5 @@ coverage/
 
 # test temp file
 test/temp/*
+
+.idea
