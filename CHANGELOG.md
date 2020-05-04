@@ -4,6 +4,12 @@
 
 > Unreleased
 
+## [v2.2.3]
+
+> May 4, 2020
+
+* feat: Add support localize.com
+
 ## [v2.2.2]
 
 > April 30, 2018
